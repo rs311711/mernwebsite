@@ -13,7 +13,7 @@ export const Register = () => {
 
   const navigate = useNavigate();
   const { storeTokenInLS } = useAuth();
-  const API = "http://localhost:5001";
+  const API = "https://mernwebsite-sandy.vercel.app";
 
   const URL = `${API}/api/auth/register`;
 
